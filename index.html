@@ -1,0 +1,34 @@
+<!-- Create a Signup page for taking input from the user such as Username, Password, etc. and a Submit button. The webpage should contain the following validations :
+* If user did not fill any field or put wrong length of password and clicked on the submit button, appropriate message should be displayed
+You have to design an interactive page having good CSS. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LueurTech LogIn</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="signin">
+        <h2>LueurTech LogIn</h2>
+        <form id="form">
+          <div class="input-grp">
+            <label for="name">Username</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="input-grp">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div>
+          <button type="submit" class="signin-btn">Sign In</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
